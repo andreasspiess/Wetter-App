@@ -56,7 +56,6 @@ public class WeatherService {
         String iconUrl = "http://openweathermap.org/img/wn/" + iconCode + ".png";
         model.setIconUrl(iconUrl);
 
-
         return model;
     }
 }
